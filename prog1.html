@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h2>Current time & Date:</h2>
+</head>
+<body>
+<p id='sample'></p>
+<script type="text/javascript">
+	var d= new Date();
+	var days =[" Today is: Sunday"," Today is: Monday"," Today is: Tuesday","Today is: Wednessday","Today is: Thursday","Today is: Friday"," Today is: Saturday"];
+	document.getElementById('sample').innerHTML=days[d.getDay()];
+var time = new Date();
+document.write("current time is:");
+document.write( time.getHours()+":" + time.getMinutes()+ ":" + time.getSeconds());</script>
+</body>
+</html>
